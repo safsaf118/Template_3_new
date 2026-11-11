@@ -1,0 +1,47 @@
+/* nav section */
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--white-color);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12);
+}
+.nav-list {
+    padding: 0;
+    position: relative;
+}
+.nav-list li {
+    display: inline-block;
+    font-size: 24px;
+}
+.nav-list a {
+    color: var(--black-color);
+}
+.nav-list .nav-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    transition: color 0.5s;
+}
+.nav-list .button-list {
+    position: absolute;
+    top: 0px;
+    background: var(--brown-color);
+    padding: 5px 5px 5px 50px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    border-radius: 15%;
+    transition: opacity 0.5s;
+}
+.nav-button {
+    padding-right: 250px;
+}
+.button-list a {
+    color: var(--white-color);
+    margin: 0 10px;
+}
+.nav-list .li-mg {
+    margin: 0 500px 0 250px;
+}

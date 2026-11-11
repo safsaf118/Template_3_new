@@ -1,0 +1,60 @@
+/* food section */
+.food {
+    margin-top: 100px;
+}
+.food-content-top {
+    overflow: hidden;
+    padding: 4px 8px;
+}
+.food-content-button {
+    overflow: hidden;
+    padding: 4px 8px;
+}
+.food-item {
+    float: left;
+    width: 24%;
+}
+.food-item .food-img {
+    width: 100%;
+}
+.food-item.mg {
+    margin: 0 1%;
+}
+.food-item.mg-r {
+    margin-right: 1%;
+}
+.food-title {
+    font-size: 25px;
+}
+.food-desc {
+    font-size: 16px;
+    line-height: 1.4;
+}
+.food-buttom {
+    padding: 32px 0;
+}
+.food-bar .bar-link ,.food-bar .bar-active {
+    display: inline-block;
+    border: 1px solid none;
+    border-radius: 50%;
+    padding: 20px;
+    transition: color 0.5s , background-color 0.5s, transform 0.5s;
+}
+.food-bar .bar-link {
+    color: var(--black-color);
+    transform: color 0.5;  
+}
+.food-bar .bar-active {
+    background: var(--black-color);
+    color: var(--white-color);
+}
+.food-bar .bar-link:hover {
+    background: var(--black-color);
+    color: var(--white-color);
+    transform: translateY(-25px);
+}
+.food-bar .bar-active:hover {
+    background: #ccc ;
+    color: var(--black-color);
+    transform: translateY(-25px);
+}

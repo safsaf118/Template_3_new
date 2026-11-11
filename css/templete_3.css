@@ -1,0 +1,55 @@
+/* path */
+
+/* 
+    1. nav section
+    2. food section
+    3. about section
+    footer section
+
+*/
+
+/* common */
+
+* {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.pd-y {
+    padding: 32px 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+.line {
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+}
+.clear {
+    clear: both;
+}
+
+i {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --brown-color: #580808;
+    --gray-color: #616161;
+}
